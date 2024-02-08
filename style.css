@@ -111,12 +111,10 @@ nav .nav-links ul li a::after{
     width: 80%;
     margin: auto;
     padding-top: 50px;
-
-}
-
-.courses{
     text-align: center;
 }
+
+
 
 section h1{
     font-size: 35px;
@@ -158,15 +156,12 @@ section div div h3{
     margin: 10px 0;
 }
 
-.campus{
-    text-align: center;
-}
-
 
 .campus-col{
     position: relative;
     overflow: hidden;
-  
+    background-color: aqua;
+    margin-bottom: 40px;
 
 }
 
@@ -203,7 +198,25 @@ section div div h3{
     bottom: 50%;
     transition: .3s;
     opacity: 1;
+    
 }
+
+.facilities-col{
+    text-align: left;
+}
+
+.facilities-col img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.facilities-col h3{
+    padding-left: 10px;
+}
+
+
+
 
 @media (max-width:768px) {
     .nav-links{
