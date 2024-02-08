@@ -288,6 +288,7 @@ section div div h3{
 .bi-balloon-heart-fill{
     color: red;
     margin: 10px;
+    font-size: 1.1rem;
 }
 
 @media (max-width:768px) {
