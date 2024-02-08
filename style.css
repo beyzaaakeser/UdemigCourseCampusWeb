@@ -215,8 +215,80 @@ section div div h3{
     padding-left: 10px;
 }
 
+.testemonials-col{
+    background-color: antiquewhite;
+    text-align: left;
+    cursor: pointer;
+    box-sizing: border-box;
+    display: flex;
+    padding: 10px;
+}
+
+.testemonials-col img{
+    height: 50px;
+    margin: 5px 10px;
+    border-radius: 50%;
+
+}
+
+.testemonials-col div p{
+    padding: 0;
+
+}
+
+.testemonials-col div h2{
+    margin-top: 15px;
+}
+
+.testemonials-col div .bi{
+    color: red;
+}
 
 
+.au{
+    background: linear-gradient(rgb(5,10,30,0.7),rgb(5,10,30,0.7)),url(images/london.jpeg), center;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+    border-radius: 10px;
+    margin-top: 100px;
+    
+}
+
+.au h1{
+    color: white;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+
+.footer{
+    padding: 100px 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+}
+
+.footer h2{
+    margin: 25px 0;
+}
+
+.icons{
+    margin: 50px 20px;
+}
+
+.icons .bi{
+    color: red;
+    margin: 0 10px;
+    cursor: pointer;
+    padding: 20px 10px;
+    font-size: 1.2rem;
+}
+
+.bi-balloon-heart-fill{
+    color: red;
+    margin: 10px;
+}
 
 @media (max-width:768px) {
     .nav-links{
@@ -236,5 +308,9 @@ section div div h3{
     }
     .row{
         display: block;
+    }
+
+    .au h1{
+        font-size: 25px;
     }
 }
